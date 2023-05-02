@@ -5,9 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "docs": "ng build --output-path docs --base-href",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "docs": "ng build --output-path docs --base-href"
+    "test": "ng test"
+
   },
 
   "private": true,
