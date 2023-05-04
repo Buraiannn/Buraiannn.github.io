@@ -3,10 +3,18 @@
     <div>
       <ul style="list-style-type: none;" class="flex items-center gap-[4vw]">
         <li><a class="hover:text-white" routerLink="/home">Home</a></li>
+        <li><a class="hover:text-white" routerLink="/service">Service</a></li>
         <li><a class="hover:text-white" routerLink="/about">About</a></li>
         <li><a class="hover:text-white" routerLink="/contact">Contact</a></li>
       </ul>
     </div>
   </nav>
-</header>
+<body style="background-image: url('assets/images/bgblack.jpg'); background-size: cover;" class="text-white font-body">
+  <header class="py-4 px-8 flex justify-between items-center">
+    <div class="font-bold text-lg md:text-2xl">Brian Joseph Suñaz</div>
+    <div>
+      <img src="assets/images/bri.jpg" alt="brian" class="rounded-full w-20 h-20 md:w-32 md:h-32">
+    </div>
+  </header>
+    </body>
 <router-outlet></router-outlet>
